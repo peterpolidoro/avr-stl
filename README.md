@@ -12,14 +12,12 @@ See his post here for more details:
 
 ##Linux and Mac OS X
 
-If you want to use the STL from within the popular Arduino IDE then
-all you need to do is copy all the files in the avr-stl/include
-directory into the hardware/tools/avr/lib/avr/include/ subdirectory of
-the Arduino installation. For example, copy all the header files into
-here:
-
 ```shell
-~/arduino-1.0.6/hardware/tools/avr/lib/avr/include/
+mkdir ~/git
+cd ~/git
+git clone https://github.com/peterpolidoro/avr-stl.git
+cd ~/git/avr-stl
+python symlinks.py -i -a <arduino_installation_path> (.e.g. ~/arduino-1.0.6)
 ```
 
 ##Windows
