@@ -2,7 +2,7 @@ avr-stl
 =======
 
 This repository contains a copy of Andy Brown's Standard Template
-Library (STL) for AVR with C++ streams.
+Library (STL) for AVR with C++ streams version 1.1.
 
 See his post here for more details:
 
