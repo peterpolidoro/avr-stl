@@ -9,7 +9,7 @@ symlinks.py usage:
     python symlinks.py -r  -a ~/arduino_installation_path # Removes links to the files
 
 Authors:
-Peter Polidoro polidorop@janelia.hhmi.org
+Peter Polidoro peterpolidoro@gmail.com
 
 """
 import sys
